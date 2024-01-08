@@ -624,8 +624,17 @@ footer {
     padding-top: 50px;
 }
 
-.footer .copyright p {
+.footer .copyright #copy {
+    width: 50%;
     color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer .copyright #Unsubscribe{
+    width: 50%;
+    color: #FFF;
+    text-align: right;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
