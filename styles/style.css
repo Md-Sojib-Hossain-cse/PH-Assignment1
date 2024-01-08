@@ -279,7 +279,8 @@ font-family: 'Merriweather', serif; */
     justify-content: center;
     align-items: center;
 }
-.new-offer .new-offer-image-back img{
+
+.new-offer .new-offer-image-back img {
     height: 364px;
     width: 364px;
 }
@@ -312,3 +313,89 @@ font-family: 'Merriweather', serif; */
     height: 140px;
     flex-shrink: 0;
 }
+
+
+
+/* holydays style starts here  */
+
+.holydays-sale {
+    height: 470px;
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 120px auto;
+}
+
+.holydays-sale .holydays-sale-text *{
+    text-align: center;
+    width: 80%;
+    max-width: 1068px;
+    margin: 0 auto 65px;
+}
+.holydays-sale .holydays-sale-text h4 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.holydays-sale .holydays-sale-text h2 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+
+.holydays-sale .holydays-sale-text span {
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holydays-sale .holydays-sale-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+
+.holydays-sale-image{
+    background: url(../resources/Rectangle1.png) , url(../resources/Rectangle2.png);
+    background-repeat: no-repeat;
+    background-position: top right , bottom center ;
+    display: flex;
+}
+.holydays-sale .holydays-sale-image {
+    height: 662px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.holydays-sale .holydays-sale-image .surprice-box{
+    width: 60%;
+}
+.holydays-sale .holydays-sale-image .surprice-box img{
+    width: 90%;
+    margin: 7% 5% 3% 5%;
+}
+.holydays-sale .holydays-sale-image .discount{
+    width: 40%;
+}
+
+.holydays-sale .holydays-sale-image .discount img{
+    margin:-40% 0 0 -10% ;
+}
+
+
