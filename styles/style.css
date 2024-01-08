@@ -462,6 +462,14 @@
     width: 100%;
 }
 
+.best-gifts .best-gift-images .best-gift-image-box:hover img{
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    border-radius: 16px;
+    transition: 0.5s ease-in-out;
+}
+
 
 
 /* subscribe styles starts here */
