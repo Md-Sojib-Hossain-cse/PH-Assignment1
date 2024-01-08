@@ -1,6 +1,4 @@
-/* font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif; */
-
+/* reset css  */
 * {
     margin: 0;
     padding: 0;
@@ -541,4 +539,83 @@ font-family: 'Merriweather', serif; */
     border: 0;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+}
+
+
+/* footer styles starts here  */
+footer {
+    background-color: black;
+}
+
+.footer {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.footer .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer .contact .adress {
+    width: 57%;
+    max-width: 375px;
+}
+
+.footer .contact .adress p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer .contact .contact-info {
+    width: 57%;
+    max-width: 375px;
+}
+
+.footer .contact .contact-info ul li {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    list-style: none;
+}
+
+.footer .contact .contact-info ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.footer .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px auto;
+}
+
+.footer .social-links a {
+    margin: 24px;
+}
+
+.footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 50px;
+}
+
+.footer .copyright p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
 }
